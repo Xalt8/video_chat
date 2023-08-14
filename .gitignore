@@ -1,2 +1,4 @@
 env
 TCP_video_conference.pdf
+.vscode/settings.json
+.gitignore

@@ -12,9 +12,7 @@ HOST = socket.gethostbyname(socket.gethostname())
 async def server_handler(server_stream):
     try:
         async for data in server_stream:
-            print(f"Received data -> {data}")
             await server_stream.send_all(data)
-            print(f"Sent data -> {data}")
     except Exception as e:
         print("Exception in server handler", e)
 
@@ -30,5 +28,5 @@ async def main():
 
 
 if __name__ == "__main__":
-    print("server module")
+    print(f"server running on {HOST}:{PORT}")
     trio.run(main)
