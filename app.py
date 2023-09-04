@@ -94,6 +94,6 @@ async def stream_video() -> None:
                     break
     
     
-trio.run(stream_video)
+# trio.run(stream_video)
     
     

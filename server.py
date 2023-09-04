@@ -28,5 +28,5 @@ async def main():
 
 
 if __name__ == "__main__":
-    print(f"server running on {HOST}:{PORT}")
+    print(f"server running on {HOST} : {PORT}")
     trio.run(main)
