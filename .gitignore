@@ -17,3 +17,7 @@ style_transfer/images/style_images/starry_night.jpg
 style_transfer/images/style_images/the_scream.jpg
 style_transfer/images/style_images/udnie.png
 style_transfer/images/style_images/water_color_fox.jpg
+face_mesh/shape_predictor_68_face_landmarks.dat
+face_mesh/woman_pic.jpg
+face_mesh/woman_vid.mp4
+face_mesh/face_landmarker.task
